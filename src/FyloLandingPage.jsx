@@ -1,10 +1,23 @@
-import { Header } from "./components/Header"
+import {
+	EarlyAccessSection,
+	FeaturesSection,
+	Footer,
+	Header,
+	HeroSection,
+	ProductiveSection,
+	TestimonialSection,
+} from './components';
 
 export const FyloLandingPage = () => {
-  return (
-    <div className="h-screen dark:bg-DarkBlue dark:text-White font-opensans">
-     {/* Header */}
-     <Header/>
-    </div>
-  )
-}
+	return (
+		<>
+			<Header />
+			<HeroSection />
+			<FeaturesSection />
+			<ProductiveSection />
+			<TestimonialSection />
+			<EarlyAccessSection />
+			<Footer />
+		</>
+	);
+};
